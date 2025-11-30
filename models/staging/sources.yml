@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: nyc_spending
+    database: nyc-gov-spending 
+    schema: nyc_spending           
+    tables:
+      - name: spending_clean
+        description: "Cleaned NYC Checkbook spending data loaded from GCS."
