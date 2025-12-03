@@ -9,18 +9,19 @@ with
             cast(
                 farm_fingerprint(
                     concat(
-                        coalesce(agency, ''),
+                        coalesce(b.agency, ''),
                         '|',
-                        coalesce(payee_name, ''),
+                        coalesce(b.payee_name, ''),
                         '|',
-                        coalesce(cast(issue_date as string), ''),
+                        coalesce(cast(b.issue_date as string), ''),
                         '|',
-                        coalesce(document_id, ''),
+                        coalesce(b.document_id, ''),
                         '|',
-                        coalesce(cast(check_amount as string), '')
+                        coalesce(cast(b.check_amount as string), '')
                     )
                 ) as string
             ) as fact_spending_id,
+
 
             -- foreign keys to dimensions
             da.agency_id,
