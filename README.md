@@ -1,6 +1,6 @@
 NYC Governemnt Spending
 CIS 9440
-ASsignment 1
+Assignment 1
 
 DATA SOURCING
 The dataset for this project comes from the NYC Checkbook Spending API, which provides information about New York City government agency spending. I used a Python script to connect to the API via XML POST requests and retrieve Fiscal Year 2023 data. To bypass issues I had with my IP being banned, the script also converts results into a structured CSV file. The script supports pagination and extracts up to 50,000 rows for this assignment (too big of a file). A separate data dictionary (provided in an Excel Sheet) under /NYC_Checkbook/data_dictionary.
