@@ -5,5 +5,4 @@ sources:
     database: nyc-gov-spending
     schema: nyc_spending
     tables:
-      - name: spending_clean
-        description: "Cleaned NYC Checkbook spending data loaded from GCS."
+      - name: spending_raw

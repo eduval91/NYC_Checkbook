@@ -16,4 +16,4 @@ select
     fiscal_year,
     contract_id,
     document_id
-from {{ source("nyc_spending", "spending_clean") }}
+from {{ source("nyc_spending", "spending_raw") }}
