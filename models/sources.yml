@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: nyc_spending
+    database: nyc-gov-spending
+    schema: nyc_spending
+    tables:
+      - name: spending_raw
