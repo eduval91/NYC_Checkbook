@@ -18,7 +18,7 @@ The final workflow includes:
 
 	•	Extracting data from the NYC Checkbook API using Python
 	•	Storing raw data in Google Cloud Storage
-	•	Designing and creating a staging table in PostgreSQL
+	•	Designing and creating a staging table in dbt Cloud. 
 	•	Designing and creating a dimensional star schema for analytics
 	•	Documenting the full process with scripts, an ERD, and a README
 
